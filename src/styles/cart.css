@@ -1,0 +1,38 @@
+.cart{
+    text-align: center;
+    font-size: 40px;
+}
+.nav {
+    border-bottom: 1px solid rgb(212, 196, 196);
+    color: rgb(212, 196, 196);
+    width: 96%;
+    margin: auto;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav .leftSide1 {
+    flex: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.nav .rightSide1 {
+    flex: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a {
+    margin-top: 30px;
+    color: rgb(212, 196, 196);;
+    text-decoration: none;
+    margin: 20px;
+}
+.hello {
+    margin: 10px;
+}

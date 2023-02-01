@@ -1,0 +1,19 @@
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.input-1{
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(139, 129, 114);
+}
+.input-1:focus{
+    border-bottom: 1px solid blue;
+}
