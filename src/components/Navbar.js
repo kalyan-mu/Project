@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Needs/Logo";
 import "../styles/Navbar.css"
-//end
 
 
 function Navbar () {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../styles/Inputs.css"
-
+//end
 
 function Inputs(props) {
     const [user, setUser] = useState("");

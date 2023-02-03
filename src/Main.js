@@ -8,7 +8,6 @@ import Cart from "./Pages/Cart";
 import Login from "./Pages/Login";
 import Notfound from "./Pages/Notfound";
 import Signup from "./Pages/Signup";
-//end
 
 function Main() {
   return (

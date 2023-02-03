@@ -1,66 +1,86 @@
 import React from "react";
+import Banner from "../Assets/Main-Banner1.png"
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Card from "../Needs/Card";
+import TopProduct from "./TopProduct";
 import "../styles/Home.css";
-//end
+import Offers from "../Needs/Offers";
 
 function Home() {
     return (
       <>
-      <Navbar />
+        <Navbar />
         <div className="border">
-          <h2>Banner</h2>
+          <img src={Banner} alt="banner" />
         </div>
-        <div>
-          <div className="product">
-            <h1>Products</h1>
+        <div className="top">
+          <div className="top-1">
+            <h1>TOP PRODUCTS</h1>
           </div>
           <div className="left">
-            <Card
-              img="#.jpj"
-              alt="image1"
-              matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-              btn="Know More"
-            />
-            <Card
-              img="#.jpj"
-              alt="image2"
-              matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-              btn="Know More"
-            />
-            <Card
-              img="#.jpj"
-              alt="image3"
-              matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-              btn="Know More"
-            />
+            <TopProduct alt="image1" btn="Select Options" />
+            <TopProduct alt="image1" btn="Select Options" />
+            <TopProduct alt="image1" btn="Select Options" />
+            <TopProduct alt="image1" btn="Select Options" />
           </div>
-          <div className="product">
-            <h1>Services</h1>
-            <div className="services-img">
-              <img src="#.jpj" alt="image1" />
+        </div>
+        <Offers />
+        <div className="product">
+          <h1>PICKLES</h1>
+        </div>
+        <div className="left">
+          <Card alt="image1" matter="150.00" btn="Select Options" />
+          <Card alt="image1" matter="150.00" btn="Select Options" />
+          <Card alt="image2" matter="150.00" btn="Select Options" />
+          <Card alt="image3" matter="150.00" btn="Select Options" />
+        </div>
+        <div className="left">
+          <Card alt="image1" matter="150.00" btn="Select Options" />
+          <Card alt="image1" matter="150.00" btn="Select Options" />
+          <Card alt="image2" matter="150.00" btn="Select Options" />
+          <Card alt="image3" matter="150.00" btn="Select Options" />
+        </div>
+        <div className="left">
+          <div className="BG_img">
+            <div className="ground">
+              <h1>New Arrivals</h1>
+              <h1>of Pickles</h1>
+              <button className="btn_1">VIEW MORE</button>
             </div>
-            <div className="heading">
-              <h1>Heading</h1>
+          </div>
+          <div className="BG_img2">
+            <div className="ground">
+              <h1>New Arrivals</h1>
+              <h1>of Powders</h1>
+              <button className="btn_1">VIEW MORE</button>
             </div>
-            <div className="para">
-              <p>
-                Like a scene in a movie or a verse in a song, paragraphs are the
-                building blocks of any good piece of writing. Paragraphs lend a
-                natural rhythm to your writing that makes it a joy to read. The
-                question is, how do you handle them successfully Below, we take
-                a close look at what makes up an effective paragraph and explain
-                how to write one that suits your needs. We also cover some
-                advanced tips. But first, let’s start with the fundamentals.
-              </p>
-            </div>
+          </div>
+        </div>
+        <div className="product">
+          <h1>POWDERS</h1>
+        </div>
+        <div className="left">
+          <Card alt="image1" matter="150.00" btn="Select Options" />
+          <Card alt="image1" matter="150.00" btn="Select Options" />
+          <Card alt="image2" matter="150.00" btn="Select Options" />
+          <Card alt="image3" matter="150.00" btn="Select Options" />
+        </div>
+        <div className="left">
+          <Card alt="image1" matter="150.00" btn="Select Options" />
+          <Card alt="image1" matter="150.00" btn="Select Options" />
+          <Card alt="image2" matter="150.00" btn="Select Options" />
+          <Card alt="image3" matter="150.00" btn="Select Options" />
+        </div>
+        <div className="top">
+          <div className="top-1">
+            <h1>RECENTLY VIEWED</h1>
+          </div>
+          <div className="left">
+            <TopProduct alt="image1" btn="Select Options" />
+            <TopProduct alt="image1" btn="Select Options" />
+            <TopProduct alt="image1" btn="Select Options" />
+            <TopProduct alt="image1" btn="Select Options" />
           </div>
         </div>
         <Footer />

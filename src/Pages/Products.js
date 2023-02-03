@@ -3,66 +3,26 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Card from "../Needs/Card";
 import "../styles/Products.css"
-//end
 
 function Products() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div className="product1">
         <h1>Products</h1>
       </div>
       <div className="row">
-        <Card
-          img="#.jpj"
-          alt="image1"
-          matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-          btn="Add Cart"
-        />
-        <Card
-          img="#.jpj"
-          alt="image2"
-          matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-          btn="Add Cart"
-        />
-        <Card
-          img="#.jpj"
-          alt="image3"
-          matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-          btn="Add Cart"
-        />
+        <Card matter="150.00" alt="image1" btn="Select Options" />
+        <Card alt="image2" matter="150.00" btn="Select Options" />
+
+        <Card alt="image3" matter="150.00" btn="Select Options" />
+        <Card alt="image3" matter="150.00" btn="Select Options" />
       </div>
       <div className="row">
-        <Card
-          img="#.jpj"
-          alt="image4"
-          matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-          btn="Add Cart"
-        />
-        <Card
-          img="#.jpj"
-          alt="image5"
-          matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-          btn="Add Cart"
-        />
-        <Card
-          img="#.jpj"
-          alt="image6"
-          matter="The react-router-dom package contains bindings 
-              for using React Router in web applications.The react-router-dom 
-              package contains bindings for using React Router in web applications."
-          btn="Add Cart"
-        />
+        <Card alt="image4" matter="150.00" btn="Select Options" />
+        <Card alt="image5" matter="150.00" btn="Select Options" />
+        <Card alt="image6" matter="150.00" btn="Select Options" />
+        <Card alt="image3" matter="150.00" btn="Select Options" />
       </div>
       <Footer />
     </>
