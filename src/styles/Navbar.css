@@ -1,7 +1,6 @@
 .navbar {
-    border: 1px solid black;
     width: 100%;
-    height: 90px;
+    height: 70px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -20,17 +19,157 @@
     width: 70px;
 }
 
-.navbar .rightSide {
+.navbar .RightSide {
+    margin-left: 0px;
     flex: 70%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .navbar a {
-    margin-top: 30px;
+    margin-left: 40px;
     color: black;
     text-decoration: none;
+}
+.Nav__1{
+    color: #CFB338;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.Nav__5{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 30px;
+}
+.Nav__3{
+    color: #CFB338;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+}
+.Nav__6{
+    color: #CFB338;
+    margin-top: 20px;
+}
+.Nav__2{
+    color: #CFB338;
+    margin: 22px 20px 0px 0px;
+}
+
+.Nav__7{
+    display: flex;
+    align-items: center;
+    border: 1px solid #707070;
+    background-color: #54372F;
+    height: 100px;
+    width: 100%;
+}
+.Nav__8{
+    border: 1px solid #707070;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+}
+.Nav__9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #CFB338;
+    padding-top:10px ;
+}
+.Nav__10{
+    margin-left: 200px;
+    border: 1px solid #707070;
+    width: 450px;
+    background-color: white;
+    height: 45px;
+    border-radius: 20px;
+}
+.Nav__11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
+}
+.Nav__12{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    height: 20px;
+    margin-left: 2px;
+    width: 250px;
+}
+.Nav__13{
+    margin-top: 9px;
+    margin-left: 10px;
+    border: 1px solid #CFB338;
+    width: 20px;
+    background-color: #CFB338;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.Nav__14 {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    height: 20px;
+    margin-left: 2px;
+    width: 100px;
+    border-left: 1px solid #707070;
+}
+.Nav__15{
+    margin-top: 6px;
+}
+.Nav__16{
+    margin-left: 250px;
+}
+.Nav__17-1{
+    float: left;
     margin: 20px;
+}
+.Nav__17-2 {
+    float: left;
+    margin: 20px;
+}
+.Nav__17-3 {
+    float: left;
+    margin-top: 20px;
+    
+}
+.Nav__17 {
+    float: left;
+    margin-top: 20px;
+}
+.Nav__17 p{
+    margin-top: 8px;
+    color: #CFB338;
+}
+.Nav__18{
+    border: 1px solid #707070;
+    width: 200px;
+    margin-left: 30px;
+    height: 50px;
+}
+.Nav__18 img{
+    margin-top: 6px;
+    float: left;
+}
+.Nav__18 p{
+    margin-top: 12px;
+    float: left;
+}
+.Nav__19{
+    margin-top: 10px;
+}
+.Nav__20{
+    margin-left: 350px;
+}
+.Nav__20 a{
+    color: #CFB338;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/TopProduct.css";
 import { useNavigate } from "react-router-dom";
-import Pickel from "../Assets/unnamed.png";
 
 
 function TopProduct(props) {
@@ -11,7 +10,7 @@ function TopProduct(props) {
       <div>
         <div className="card1">
           <div className="card-img1">
-            <img className="IMG1" src={Pickel} alt={props.alt} />
+            <img className="IMG1" src={props.pickel} alt={props.alt} />
           </div>
           <div className="card-matter1">
             <h2 className="card-title_1">Mango Pickel</h2>

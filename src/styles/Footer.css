@@ -39,6 +39,7 @@ ul {
     float: left;
 }
 li{
+    display: flex;
     color: rgb(129, 116, 97);
     list-style-type:none ;
     margin-top: 25px;
@@ -74,7 +75,7 @@ li{
     background-color: #CFB338;
 }
 .PARA__2{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .BORDER__1{
     border: 1px solid white;

@@ -16,9 +16,12 @@ function Footer () {
                 <li>
                   <LocationOnIcon className="left__2" />
                   <div className="PARA__2">
-                    <p>It is a long established fact that</p>
-                    <p>a reader will be distracted by the</p>
-                    <p>readable content of a page.</p>
+                    <p>
+                      It is a long established fact that a <br />
+                      reader will be distracted by the <br />
+                      readable content of a page.
+                      <br />
+                    </p>
                   </div>
                 </li>
                 <li>

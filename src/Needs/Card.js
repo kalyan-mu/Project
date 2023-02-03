@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Card.css";
 import { useNavigate } from "react-router-dom"
-import Pickel from "../Assets/unnamed.png"
 function Card (props){
   const navigate =useNavigate();
     return (
@@ -9,7 +8,7 @@ function Card (props){
         <div className="wrapper">
           <div className="card">
             <div className="card-img">
-              <img className="IMG" src={Pickel} alt={props.alt} />
+              <img className="IMG" src={props.pickel} alt={props.alt} />
             </div>
             <div className="card-matter">
               <h2 className="card-title">Mango Pickel</h2>

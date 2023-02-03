@@ -23,7 +23,9 @@
 }
 
 .card-matter{
-    border-top:1px solid black ;
+    border-top:3px solid #D1D1D1 ;
+    max-width: 90%;
+    margin: auto;
     text-align: center;
 }
 .card-title{

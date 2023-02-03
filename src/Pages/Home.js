@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Card from "../Needs/Card";
 import TopProduct from "./TopProduct";
+import Pickel from "../Assets/unnamed.png";
 import "../styles/Home.css";
 import Offers from "../Needs/Offers";
 
@@ -19,27 +20,67 @@ function Home() {
             <h1>TOP PRODUCTS</h1>
           </div>
           <div className="left">
-            <TopProduct alt="image1" btn="Select Options" />
-            <TopProduct alt="image1" btn="Select Options" />
-            <TopProduct alt="image1" btn="Select Options" />
-            <TopProduct alt="image1" btn="Select Options" />
+            <TopProduct pickel={Pickel} alt="image1" btn="Select Options" />
+            <TopProduct pickel={Pickel} alt="image1" btn="Select Options" />
+            <TopProduct pickel={Pickel} alt="image1" btn="Select Options" />
+            <TopProduct pickel={Pickel} alt="image1" btn="Select Options" />
           </div>
         </div>
-        <Offers />
+        <Offers /><br />
         <div className="product">
           <h1>PICKLES</h1>
         </div>
         <div className="left">
-          <Card alt="image1" matter="150.00" btn="Select Options" />
-          <Card alt="image1" matter="150.00" btn="Select Options" />
-          <Card alt="image2" matter="150.00" btn="Select Options" />
-          <Card alt="image3" matter="150.00" btn="Select Options" />
+          <Card
+            pickel={Pickel}
+            alt="image1"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image1"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image2"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image3"
+            matter="150.00"
+            btn="Select Options"
+          />
         </div>
         <div className="left">
-          <Card alt="image1" matter="150.00" btn="Select Options" />
-          <Card alt="image1" matter="150.00" btn="Select Options" />
-          <Card alt="image2" matter="150.00" btn="Select Options" />
-          <Card alt="image3" matter="150.00" btn="Select Options" />
+          <Card
+            pickel={Pickel}
+            alt="image1"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image1"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image2"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image3"
+            matter="150.00"
+            btn="Select Options"
+          />
         </div>
         <div className="left">
           <div className="BG_img">
@@ -61,26 +102,66 @@ function Home() {
           <h1>POWDERS</h1>
         </div>
         <div className="left">
-          <Card alt="image1" matter="150.00" btn="Select Options" />
-          <Card alt="image1" matter="150.00" btn="Select Options" />
-          <Card alt="image2" matter="150.00" btn="Select Options" />
-          <Card alt="image3" matter="150.00" btn="Select Options" />
+          <Card
+            pickel={Pickel}
+            alt="image1"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image1"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image2"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image3"
+            matter="150.00"
+            btn="Select Options"
+          />
         </div>
         <div className="left">
-          <Card alt="image1" matter="150.00" btn="Select Options" />
-          <Card alt="image1" matter="150.00" btn="Select Options" />
-          <Card alt="image2" matter="150.00" btn="Select Options" />
-          <Card alt="image3" matter="150.00" btn="Select Options" />
+          <Card
+            pickel={Pickel}
+            alt="image1"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image1"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image2"
+            matter="150.00"
+            btn="Select Options"
+          />
+          <Card
+            pickel={Pickel}
+            alt="image3"
+            matter="150.00"
+            btn="Select Options"
+          />
         </div>
         <div className="top">
           <div className="top-1">
             <h1>RECENTLY VIEWED</h1>
           </div>
           <div className="left">
-            <TopProduct alt="image1" btn="Select Options" />
-            <TopProduct alt="image1" btn="Select Options" />
-            <TopProduct alt="image1" btn="Select Options" />
-            <TopProduct alt="image1" btn="Select Options" />
+            <TopProduct pickel={Pickel} alt="image1" btn="Select Options" />
+            <TopProduct pickel={Pickel} alt="image1" btn="Select Options" />
+            <TopProduct pickel={Pickel} alt="image1" btn="Select Options" />
+            <TopProduct pickel={Pickel} alt="image1" btn="Select Options" />
           </div>
         </div>
         <Footer />
