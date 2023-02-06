@@ -52,7 +52,7 @@
 }
 .BG_img{
     margin: 20px;
-    background-image: url("/Users/vamsi/Desktop/work/cart/src/Assets/glass.png");
+    background-image: url("../Assets/glass.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -72,7 +72,7 @@
 }
 .BG_img2 {
     margin: 20px;
-    background-image: url("/Users/vamsi/Desktop/work/cart/src/Assets/various-spices.png");
+    background-image: url("../Assets/various-spices.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
