@@ -9,6 +9,7 @@ import Love from "../Assets/heart.png";
 import Before from "../Assets/before-after.png";
 import Bag from "../Assets/bag.png";
 import Menu from "../Assets/menu.png";
+//end
 
 
 function Navbar () {
